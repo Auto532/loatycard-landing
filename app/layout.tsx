@@ -1,6 +1,12 @@
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
+import ComingSoon from "./coming-soon";
 import "./globals.css";
+
+// Solange NEXT_PUBLIC_SITE_LIVE nicht auf "1" steht, sehen Besucher auf
+// ALLEN Routen nur den Coming-Soon-Platzhalter. Zum Launch: Variable in
+// Vercel setzen und neu deployen.
+const SITE_LIVE = process.env.NEXT_PUBLIC_SITE_LIVE === "1";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -36,7 +42,9 @@ export default function RootLayout({
       lang="de"
       className={`${geistSans.variable} ${geistMono.variable} h-full antialiased`}
     >
-      <body className="min-h-full flex flex-col">{children}</body>
+      <body className="min-h-full flex flex-col">
+        {SITE_LIVE ? children : <ComingSoon />}
+      </body>
     </html>
   );
 }

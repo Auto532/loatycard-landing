@@ -31,7 +31,7 @@ export default function Registrieren() {
           Starte Loatycard für deinen Shop
         </h1>
         <p className="mx-auto mt-5 max-w-lg leading-relaxed text-foreground/70">
-          Schreib uns kurz per WhatsApp – wir richten deine Stempelkarte
+          Schreib uns kurz per WhatsApp, wir richten deine Stempelkarte
           gemeinsam mit dir ein, meist noch am selben Tag. Die
           Online-Registrierung mit direkter Zahlung kommt in Kürze.
         </p>

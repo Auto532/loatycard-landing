@@ -12,7 +12,7 @@ export default function ComingSoon() {
         Hier entsteht gerade etwas Neues.
       </h1>
       <p className="mt-4 max-w-md leading-relaxed text-foreground/55">
-        Unsere Seite ist noch in Bearbeitung – schau bald wieder vorbei.
+        Unsere Seite ist noch in Bearbeitung. Schau bald wieder vorbei.
       </p>
     </main>
   );

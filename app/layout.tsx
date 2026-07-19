@@ -19,12 +19,12 @@ const geistMono = Geist_Mono({
 });
 
 export const metadata: Metadata = {
-  title: "Loatycard – Digitale Stempelkarte für deinen Shop",
+  title: "Loatycard: Digitale Stempelkarte für deinen Shop",
   description:
-    "Die digitale Kundenkarte für lokale Shops: Stempel sammeln per QR-Code, ganz ohne App. Eigenes Design, Bonus-Stufen und Statistiken – ab 20 € im Monat.",
+    "Die digitale Kundenkarte für lokale Shops: Stempel sammeln per QR-Code, ganz ohne App. Eigenes Design, Bonus-Stufen und Statistiken, ab 20 € im Monat.",
   metadataBase: new URL("https://loatycard.de"),
   openGraph: {
-    title: "Loatycard – Digitale Stempelkarte für deinen Shop",
+    title: "Loatycard: Digitale Stempelkarte für deinen Shop",
     description:
       "Stempel sammeln per QR-Code, ganz ohne App. Die digitale Kundenkarte für lokale Shops.",
     locale: "de_DE",

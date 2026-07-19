@@ -8,7 +8,7 @@ const steps = [
   {
     nr: "1",
     title: "QR-Code scannen",
-    text: "Deine Kunden scannen beim Bezahlen einfach den QR-Code an der Theke – ganz ohne App-Download.",
+    text: "Deine Kunden scannen beim Bezahlen einfach den QR-Code an der Theke, ganz ohne App-Download.",
   },
   {
     nr: "2",
@@ -18,7 +18,7 @@ const steps = [
   {
     nr: "3",
     title: "Prämie einlösen",
-    text: "Karte voll? Dein Kunde löst seine Prämie direkt im Shop ein – und sammelt gleich weiter.",
+    text: "Karte voll? Dein Kunde löst seine Prämie direkt im Shop ein und sammelt gleich weiter.",
   },
 ];
 
@@ -29,11 +29,11 @@ const features = [
   },
   {
     title: "Dein Design",
-    text: "Farben, Logo und Stil deiner Stempelkarte passen zu deinem Shop – auf Wunsch komplett individuell.",
+    text: "Farben, Logo und Stil deiner Stempelkarte passen zu deinem Shop, auf Wunsch komplett individuell.",
   },
   {
     title: "Bonus-Stufen",
-    text: "Belohne treue Kunden mit Zwischenprämien – zum Beispiel schon nach 5 Stempeln ein kleines Extra.",
+    text: "Belohne treue Kunden mit Zwischenprämien, zum Beispiel schon nach 5 Stempeln ein kleines Extra.",
   },
   {
     title: "Statistiken",
@@ -41,11 +41,11 @@ const features = [
   },
   {
     title: "Einrichtung inklusive",
-    text: "Wir richten deine Stempelkarte komplett ein. Du bekommst QR-Codes zum Ausdrucken – fertig.",
+    text: "Wir richten deine Stempelkarte komplett ein. Du bekommst QR-Codes zum Ausdrucken, fertig.",
   },
   {
     title: "Persönlicher Support",
-    text: "Fragen? Du erreichst uns direkt per WhatsApp oder Telefon – ohne Warteschleife.",
+    text: "Fragen? Du erreichst uns direkt per WhatsApp oder Telefon, ohne Warteschleife.",
   },
 ];
 
@@ -90,7 +90,7 @@ export default function Home() {
           <span className="text-gold">nie wieder vergessen</span>
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-foreground/70">
-          Papierkarten landen im Müll – Loatycard bleibt auf dem Smartphone.
+          Papierkarten landen im Müll, Loatycard bleibt auf dem Smartphone.
           Stempel sammeln per QR-Code, ganz ohne App-Download. Perfekt für
           Cafés, Friseure, Imbisse und jeden lokalen Shop.
         </p>
@@ -189,12 +189,12 @@ export default function Home() {
                 </span>
               </p>
               <p className="mt-4 text-sm leading-relaxed text-foreground/65">
-                Voller Funktionsumfang – einmal zahlen, ein Jahr Ruhe.
+                Voller Funktionsumfang. Einmal zahlen, ein Jahr Ruhe.
               </p>
             </div>
           </div>
           <p className="mt-8 text-center text-sm text-foreground/50">
-            Einmalige Einrichtung: 99 € – inklusive individuellem Design deiner
+            Einmalige Einrichtung: 99 €, inklusive individuellem Design deiner
             Stempelkarte durch unser Team (eigenes Logo, eigene Farben).
             Optional: Bonusprogramm mit mehrstufigen Belohnungen für 5 € / Monat
             pro Belohnung.
@@ -206,7 +206,7 @@ export default function Home() {
       <section className="mx-auto max-w-5xl px-5 py-20 text-center">
         <h2 className="text-3xl font-black">Bereit für mehr Stammkunden?</h2>
         <p className="mx-auto mt-4 max-w-xl text-foreground/70">
-          Starte jetzt – oder schreib uns direkt, wenn du erst Fragen hast. Wir
+          Starte jetzt oder schreib uns direkt, wenn du erst Fragen hast. Wir
           antworten persönlich.
         </p>
         <div className="mt-8 flex flex-wrap items-center justify-center gap-4">

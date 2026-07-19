@@ -169,7 +169,7 @@ export default function Home() {
                 Monatsabo
               </p>
               <p className="mt-4 text-4xl font-black">
-                30 €{" "}
+                20 €{" "}
                 <span className="text-base font-medium text-foreground/50">
                   / Monat
                 </span>
@@ -183,7 +183,7 @@ export default function Home() {
                 Jahresabo
               </p>
               <p className="mt-4 text-4xl font-black">
-                360 €{" "}
+                240 €{" "}
                 <span className="text-base font-medium text-foreground/50">
                   / Jahr
                 </span>

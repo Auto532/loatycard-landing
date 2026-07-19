@@ -2,7 +2,7 @@ export default function ComingSoon() {
   return (
     <main className="flex min-h-screen flex-col items-center justify-center px-5 text-center">
       <p className="text-2xl font-black tracking-[0.4em] text-gold sm:text-3xl">
-        LOATYCARD
+        LOYALTYCARD
       </p>
       <p className="mt-3 text-xs uppercase tracking-[0.3em] text-foreground/40">
         Digitale Kundenkarte

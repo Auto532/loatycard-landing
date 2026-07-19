@@ -6,7 +6,7 @@ import Link from "next/link";
 
 const WHATSAPP_NR = process.env.NEXT_PUBLIC_SUPPORT_WHATSAPP ?? "+491634848207";
 const WHATSAPP_LINK = `https://wa.me/${WHATSAPP_NR.replace(/\D/g, "")}?text=${encodeURIComponent(
-  "Hallo! Ich möchte Loatycard für meinen Shop starten."
+  "Hallo! Ich möchte LoyaltyCard für meinen Shop starten."
 )}`;
 
 export default function Registrieren() {
@@ -15,7 +15,7 @@ export default function Registrieren() {
       <header className="border-b border-white/10">
         <nav className="mx-auto flex max-w-5xl items-center justify-between px-5 py-4">
           <Link href="/" className="text-lg font-black tracking-[0.35em] text-gold">
-            LOATYCARD
+            LOYALTYCARD
           </Link>
           <Link href="/" className="text-sm text-foreground/70 hover:text-foreground">
             ← Zurück
@@ -28,7 +28,7 @@ export default function Registrieren() {
           Registrierung
         </p>
         <h1 className="text-3xl font-black sm:text-4xl">
-          Starte Loatycard für deinen Shop
+          Starte LoyaltyCard für deinen Shop
         </h1>
         <p className="mx-auto mt-5 max-w-lg leading-relaxed text-foreground/70">
           Schreib uns kurz per WhatsApp, wir richten deine Stempelkarte

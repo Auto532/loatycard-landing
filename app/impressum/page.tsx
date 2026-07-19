@@ -22,7 +22,7 @@ export default function Impressum() {
           PLZ Ort
         </p>
         <p>
-          E-Mail: kontakt@loatycard.de
+          E-Mail: kontakt@loyaltycard.info
           <br />
           Telefon: [TODO]
         </p>

@@ -56,7 +56,7 @@ export default function Home() {
       <header className="sticky top-0 z-20 border-b border-white/10 bg-background/90 backdrop-blur">
         <nav className="mx-auto flex max-w-5xl items-center justify-between px-5 py-4">
           <span className="text-lg font-black tracking-[0.35em] text-gold">
-            LOATYCARD
+            LOYALTYCARD
           </span>
           <div className="hidden items-center gap-6 text-sm text-foreground/70 sm:flex">
             <a href="#funktionen" className="hover:text-foreground">
@@ -90,7 +90,7 @@ export default function Home() {
           <span className="text-gold">nie wieder vergessen</span>
         </h1>
         <p className="mx-auto mt-6 max-w-2xl text-lg leading-relaxed text-foreground/70">
-          Papierkarten landen im Müll, Loatycard bleibt auf dem Smartphone.
+          Papierkarten landen im Müll, LoyaltyCard bleibt auf dem Smartphone.
           Stempel sammeln per QR-Code, ganz ohne App-Download. Perfekt für
           Cafés, Friseure, Imbisse und jeden lokalen Shop.
         </p>
@@ -197,7 +197,7 @@ export default function Home() {
             Einmalige Einrichtung: 99 €, inklusive individuellem Design deiner
             Stempelkarte durch unser Team (eigenes Logo, eigene Farben).
             Optional: Bonusprogramm mit mehrstufigen Belohnungen für 5 € / Monat
-            pro Belohnung.
+            pro Belohnung. Mit Bonusprogramm kostet die Einrichtung einmalig nur 45 €.
           </p>
         </div>
       </section>
@@ -228,7 +228,7 @@ export default function Home() {
       {/* Footer */}
       <footer className="border-t border-white/10">
         <div className="mx-auto flex max-w-5xl flex-col items-center gap-3 px-5 py-8 text-sm text-foreground/45 sm:flex-row sm:justify-between">
-          <span>Loatycard · Digitale Stempelkarten für lokale Shops</span>
+          <span>LoyaltyCard · Digitale Stempelkarten für lokale Shops</span>
           <div className="flex gap-5">
             <Link href="/impressum" className="hover:text-foreground/80">
               Impressum

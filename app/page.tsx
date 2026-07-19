@@ -169,7 +169,7 @@ export default function Home() {
                 Monatsabo
               </p>
               <p className="mt-4 text-4xl font-black">
-                39 €{" "}
+                30 €{" "}
                 <span className="text-base font-medium text-foreground/50">
                   / Monat
                 </span>
@@ -179,25 +179,25 @@ export default function Home() {
               </p>
             </div>
             <div className="relative rounded-3xl border-2 border-gold bg-background p-8">
-              <span className="absolute -top-3 right-6 rounded-full bg-gold px-3 py-1 text-xs font-bold text-background">
-                Spart 79 €
-              </span>
               <p className="text-sm font-bold uppercase tracking-widest text-gold">
                 Jahresabo
               </p>
               <p className="mt-4 text-4xl font-black">
-                389 €{" "}
+                360 €{" "}
                 <span className="text-base font-medium text-foreground/50">
                   / Jahr
                 </span>
               </p>
               <p className="mt-4 text-sm leading-relaxed text-foreground/65">
-                Voller Funktionsumfang – entspricht rund 32 € im Monat.
+                Voller Funktionsumfang – einmal zahlen, ein Jahr Ruhe.
               </p>
             </div>
           </div>
           <p className="mt-8 text-center text-sm text-foreground/50">
-            Optional: individuelles Design deiner Stempelkarte durch unser Team.
+            Einmalige Einrichtung: 99 € – inklusive individuellem Design deiner
+            Stempelkarte durch unser Team (eigenes Logo, eigene Farben).
+            Optional: Bonusprogramm mit mehrstufigen Belohnungen für 5 € / Monat
+            pro Belohnung.
           </p>
         </div>
       </section>

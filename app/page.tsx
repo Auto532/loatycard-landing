@@ -194,10 +194,10 @@ export default function Home() {
             </div>
           </div>
           <p className="mt-8 text-center text-sm text-foreground/50">
-            Einmalige Einrichtung: 99 €, inklusive individuellem Design deiner
-            Stempelkarte durch unser Team (eigenes Logo, eigene Farben).
+            Keine Einrichtungsgebühr: Einrichtung und individuelles Design deiner
+            Stempelkarte durch unser Team (eigenes Logo, eigene Farben) sind inklusive.
             Optional: Bonusprogramm mit mehrstufigen Belohnungen für 5 € / Monat
-            pro Belohnung. Mit Bonusprogramm kostet die Einrichtung einmalig nur 45 €.
+            pro Belohnung.
           </p>
         </div>
       </section>

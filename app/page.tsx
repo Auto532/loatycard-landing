@@ -49,6 +49,14 @@ const features = [
   },
 ];
 
+// Preisstufen nach Anzahl Kunden (verbindlich: affiliate-app/convex/pricing.ts)
+const PRICE_TIERS = [
+  { name: "Free",     price: 0,  range: "bis 25 Kunden" },
+  { name: "Starter",  price: 10, range: "26 bis 75 Kunden" },
+  { name: "Business", price: 20, range: "76 bis 200 Kunden" },
+  { name: "Premium",  price: 30, range: "ab 201 Kunden" },
+];
+
 export default function Home() {
   return (
     <main className="flex-1">
@@ -161,43 +169,33 @@ export default function Home() {
       <section id="preise" className="border-t border-white/10 bg-card">
         <div className="mx-auto max-w-5xl px-5 py-20">
           <h2 className="text-center text-3xl font-black">
-            Ein fairer Preis. Keine versteckten Kosten.
+            Kostenlos starten. Zahlen erst, wenn du wächst.
           </h2>
-          <div className="mx-auto mt-12 grid max-w-3xl gap-6 sm:grid-cols-2">
-            <div className="rounded-3xl border border-white/10 bg-background p-8">
-              <p className="text-sm font-bold uppercase tracking-widest text-foreground/50">
-                Monatsabo
-              </p>
-              <p className="mt-4 text-4xl font-black">
-                20 €{" "}
-                <span className="text-base font-medium text-foreground/50">
-                  / Monat
-                </span>
-              </p>
-              <p className="mt-4 text-sm leading-relaxed text-foreground/65">
-                Voller Funktionsumfang, monatlich kündbar.
-              </p>
-            </div>
-            <div className="relative rounded-3xl border-2 border-gold bg-background p-8">
-              <p className="text-sm font-bold uppercase tracking-widest text-gold">
-                Jahresabo
-              </p>
-              <p className="mt-4 text-4xl font-black">
-                240 €{" "}
-                <span className="text-base font-medium text-foreground/50">
-                  / Jahr
-                </span>
-              </p>
-              <p className="mt-4 text-sm leading-relaxed text-foreground/65">
-                Voller Funktionsumfang. Einmal zahlen, ein Jahr Ruhe.
-              </p>
-            </div>
+          <p className="mx-auto mt-4 max-w-xl text-center text-foreground/65">
+            Der Preis richtet sich nach der Anzahl deiner Kunden mit Stempelkarte.
+            Monatlich, jederzeit kündbar, keine versteckten Kosten.
+          </p>
+          <div className="mt-12 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+            {PRICE_TIERS.map((t, i) => (
+              <div key={t.name}
+                className={i === 0
+                  ? "relative rounded-3xl border-2 border-gold bg-background p-8"
+                  : "rounded-3xl border border-white/10 bg-background p-8"}>
+                <p className={`text-sm font-bold uppercase tracking-widest ${i === 0 ? "text-gold" : "text-foreground/50"}`}>
+                  {t.name}
+                </p>
+                <p className="mt-4 text-4xl font-black">
+                  {t.price === 0 ? "0 €" : `${t.price} €`}{" "}
+                  <span className="text-base font-medium text-foreground/50">/ Monat</span>
+                </p>
+                <p className="mt-4 text-sm leading-relaxed text-foreground/65">{t.range}</p>
+              </div>
+            ))}
           </div>
           <p className="mt-8 text-center text-sm text-foreground/50">
-            Keine Einrichtungsgebühr: Einrichtung und individuelles Design deiner
-            Stempelkarte durch unser Team (eigenes Logo, eigene Farben) sind inklusive.
-            Optional: Bonusprogramm mit mehrstufigen Belohnungen für 5 € / Monat
-            pro Belohnung.
+            In jeder Stufe der volle Funktionsumfang: Einrichtung, individuelles Design deiner
+            Stempelkarte (eigenes Logo, eigene Farben) und Bonusprogramm mit mehrstufigen
+            Belohnungen sind inklusive. Keine Einrichtungsgebühr.
           </p>
         </div>
       </section>
